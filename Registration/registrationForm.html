@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/styles.css">
+    </head>
+    <body class="bodyContainer">
+        <form id="registrationForm">
+            <h2 style="text-align: center;">Registration</h2>
+            <label class="reg-label" for="firstName">Vardas:</label>
+            <input class="reg-input" type="text" id="firstName" placeholder="Iveskite varda"/>
+
+            <label class="reg-label" for="password">Slaptazodis:</label>
+            <input class="reg-input" type="password" id="password" placeholder="Iveskite slaptazodi"/>
+
+            <label class="reg-label" for="email">El. pastas:</label>
+            <input class="reg-input" type="email" id="email" placeholder="Iveskite el.pasta"/>
+
+            <button class="btn-submit" id="btn-submit">Registruotis</button>
+            <div id="notificationBox">
+                <p></p>
+            </div>
+        </form>
+        <script src="registrationScript.js" async defer></script>
+    </body>
+</html>

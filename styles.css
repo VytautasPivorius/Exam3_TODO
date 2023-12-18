@@ -1,0 +1,88 @@
+#mainContainer{
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    border: solid 1px black;
+    padding: 20px;
+}
+.bodyContainer {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Set background color as needed */
+}
+#loginForm{
+    width: 400px;
+    height: 300px;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+#registrationForm{
+    width: 400px;
+    height: 300px;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.log-input{
+    border: solid 2px #aaa;
+    border-radius: 4px;
+    outline: none;
+    transition: 0.2s;
+    width: 200px;
+    height: 25px;
+}
+.log-input:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+.log-label{
+    text-align: left;
+    width: 200px;
+    height: 20px;
+}
+.reg-input{
+    border: solid 2px #aaa;
+    border-radius: 4px;
+    outline: none;
+    transition: 0.2s;
+    width: 200px;
+    height: 25px;
+}
+.reg-input:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+.reg-label{
+    text-align: left;
+    width: 200px;
+    height: 20px;
+}
+.btn-submit{
+    background-color: #357edd;
+    width: 208px;
+    height: 30px;
+    margin-top: 5px;
+    border: solid 0px #357edd;
+    transition: background-color 0.2s;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+    
+}
+.btn-submit:hover {
+    background-color: transparent;
+    border: solid 2px #357edd;
+    color: #357edd;
+}
+.img-icon{
+    width: 100px;
+    text-align: center;
+}

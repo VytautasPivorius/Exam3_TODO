@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="toDoStyles.css">
+    </head>
+    <body id="mainBody">
+        <header>
+            <div class="toDoHeader" id="toDoHeader">
+                <div id="currentUserBox">
+                    User Name
+                </div>
+            </div>
+        </header>
+        <div>
+            <button class="btn-menu" id="btn-logOut">
+                <img class="img-icon" src="../Icon/logOut.png" alt="Log out">
+            </button>
+            <button class="btn-menu" id="btn-create" onclick="PopupNewTask()">
+                <img class="img-icon" src="../Icon/add.png" alt="Create Task">
+            </button>
+            <select class="btn-menu" id="btn-filter">
+                <option value="All">All</option>
+                <option value="Personal">Personal</option>
+                <option value="Work">Work</option>
+                <option value="Study">Study</option>
+            </select>
+            
+        </div>
+        <div class="content">
+            <table id="taskTable">
+                <thead>
+                    <tr>
+                        <th class="columns new">New</th>
+                        <th class="columns wip">Work in progress</th>
+                        <th class="columns done">Done</th>
+                    </tr>
+                </thead>
+                <tbody id="toDo-container">
+                    <tr>
+                        <td id="new-column"></td>
+                        <td id="wip-column"></td>
+                        <td id="done-column"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- Popup Task Form -->
+
+        
+        <script src="toDoScript.js" async defer></script>
+    </body>
+</html>
